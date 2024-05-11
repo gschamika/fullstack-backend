@@ -45,7 +45,7 @@ public class UserController {
             throw new UserNotFoundException(id);
         }
         userRepository.deleteById(id);
-        return "User with id "+id+" has been deleted successfully";
+        return "User with id "+id+" has been deleted successful";
     }
 
 }
